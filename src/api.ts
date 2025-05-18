@@ -1,7 +1,7 @@
 import axios, { AxiosError } from 'axios';
 
 
-const API_BASE_URL = "https://weather-subscribe-service.onrender.com";
+const API_BASE_URL = "https://weather-subscribe-service.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
